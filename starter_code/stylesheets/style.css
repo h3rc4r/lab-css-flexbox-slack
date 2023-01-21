@@ -1,6 +1,6 @@
 /*
-background purple: #540B51
-background ivory: #F3EAE2
+-background purple: #540B51
+-background ivory: #F3EAE2
 button blue: #4285F4
 titles black: #191817
 paragraph black: #000000
@@ -8,3 +8,79 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* display ul solo en el mas grande */
+body{
+   
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color:#540B51 ;
+    
+}
+
+
+nav {
+ 
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; /* Align horizontally */
+  
+}
+nav div {
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align horizontally */
+     
+   }
+nav div ul{
+    
+    background-color: black;
+    display:none;
+}
+h1{
+    color: ivory;
+}
+header{
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    width: 40%;
+}
+body div button{
+    background-color: #540B51;
+    border-style:none;
+    width: 100px;
+    
+}
+header button{
+    display: flex;
+  justify-content: center;  /* Center elements horizontally */
+  align-items: center;
+ 
+    
+}
+header div button span{
+    display: flex;
+ flex-direction: row;
+ background-color:#4285F4;
+ padding: 10;
+ 
+    
+}
+header button img{
+    display: flex;
+    flex-direction: row;
+ 
+    
+    width: 30px;
+}
